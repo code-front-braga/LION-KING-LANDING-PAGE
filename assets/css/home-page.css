@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'H1Font';
+  src: url('../fonts/H1-Font.ttf');
+}
+
+@font-face {
+  font-family: 'H2Font';
+  src: url('../fonts/H2-Font.ttf');
+}
+
+#home-page {
+  position: relative;
+  display: flex;
+  background: #23144b;
+}
+
+#div-background-home-page {
+  background-image: url('../img/backgrounds/bg-home-page.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#video-home-page {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center top;
+  opacity: 0;
+}
+
+#div-background-home-page,
+#video-home-page {
+  mask-image: linear-gradient(to bottom, #00000085 20%, #00000020 90%);
+}
+
+#article-content-home-page {
+  margin: auto;
+  text-align: center;
+  line-height: 2;
+  z-index: 1;
+}
+
+#h1-title-home-page {
+  font-family: 'H1Font', sans-serif;
+  font-size: clamp(2.6rem, 4.8vw, 4.8rem);
+  font-weight: normal;
+  text-shadow: 0rem 0rem 3rem #f2f2f2;
+  letter-spacing: 3rem;
+  color: var(--snow-color);
+  animation: animation-h1 1.4s ease-in infinite alternate;
+}
+
+#h2-subtitle-home-page {
+  font-family: 'H2Font', monospace;
+  font-size: clamp(1.4rem, 2.6vw, 2.6rem);
+  letter-spacing: 1rem;
+  color: #d65335;
+}
+
+#h3-paragraph-home-page {
+  font-family: monospace;
+  font-size: clamp(1.3rem, 1.6vw, 1.6rem);
+  font-weight: normal;
+  letter-spacing: 0.2rem;
+  color: #f2f2f2;
+}
+
+#h3-paragraph-home-page span {
+  color: #d65335;
+}
+

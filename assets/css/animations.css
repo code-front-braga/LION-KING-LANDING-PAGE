@@ -1,0 +1,306 @@
+@keyframes animation-h1 {
+  0% {
+    text-shadow: 0rem 0rem 0.2rem #f2f2f2;
+  }
+
+  10% {
+    text-shadow: 0rem 0rem 0.2rem #f2f2f2;
+  }
+
+  25% {
+    text-shadow: 0rem 0rem 0.8rem #f2f2f2;
+  }
+
+  50% {
+    text-shadow: 0rem 0rem 1.2rem #f2f2f2;
+  }
+
+  75% {
+    text-shadow: 0rem 0rem 1.6rem #f2f2f2;
+  }
+
+  100% {
+    text-shadow: 0rem 0rem 2rem #f2f2f2;
+  }
+}
+
+@keyframes animation-slide-one {
+  6% {
+    background: url('../img/history/slide-1/pic1-slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  12% {
+    background: url('../img/history/slide-1/pic2-slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  18% {
+    background: url('../img/history/slide-1/pic3-slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  24% {
+    background: url('../img/history/slide-1/pic4-slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  30% {
+    background: url('../img/history/slide-1/pic5-slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  36% {
+    background: url('../img/history/slide-1/pic6-slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  42% {
+    background: url('../img/history/slide-1/pic7-slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  48% {
+    background: url('../img/history/slide-1/pic8-slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  54% {
+    background: url('../img/history/slide-1/pic9-slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  60% {
+    background: url('../img/history/slide-1/pic11-slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  70% {
+    background: url('../img/history/slide-1/pic14-slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  80% {
+    background: url('../img/history/slide-1/pic15-slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  90% {
+    background: url('../img/history/slide-1/pic16-slide1.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+}
+
+@keyframes animation-slide-two {
+  14% {
+    background: url('../img/history/slide-2/pic2-slide2.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  21% {
+    background: url('../img/history/slide-2/pic3-slide2.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  28% {
+    background: url('../img/history/slide-2/pic4-slide2.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  35% {
+    background: url('../img/history/slide-2/pic5-slide2.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  42% {
+    background: url('../img/history/slide-2/pic7-slide2.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  49% {
+    background: url('../img/history/slide-2/pic9-slide2.png');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  56% {
+    background: url('../img/history/slide-2/pic11-slide2.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  64% {
+    background: url('../img/history/slide-2/pic12-slide2.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  71% {
+    background: url('../img/history/slide-2/pic13-slide2.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  80% {
+    background: url('../img/history/slide-2/pic14-slide2.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+}
+
+@keyframes animation-slide-three {
+  17% {
+    background: url('../img/history/slide-3/pic1-slide3.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  34% {
+    background: url('../img/history/slide-3/pic2-slide3.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  51% {
+    background: url('../img/history/slide-3/pic3-slide3.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  68% {
+    background: url('../img/history/slide-3/pic4-slide3.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  85% {
+    background: url('../img/history/slide-3/pic5-slide3.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  96% {
+    background: url('../img/history/slide-3/pic6-slide3.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+}
+
+@keyframes animation-slide-four {
+  10% {
+    background: url('../img/history/slide-4/pic1-slide4.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  20% {
+    background: url('../img/history/slide-4/pic3-slide4.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  30% {
+    background: url('../img/history/slide-4/pic4-slide4.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  40% {
+    background: url('../img/history/slide-4/pic5-slide4.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  50% {
+    background: url('../img/history/slide-4/pic6-slide4.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  60% {
+    background: url('../img/history/slide-4/pic7-slide4.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  70% {
+    background: url('../img/history/slide-4/pic8-slide4.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  80% {
+    background: url('../img/history/slide-4/pic9-slide4.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  96% {
+    background: url('../img/history/slide-4/pic10-slide4.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+}
+
+@keyframes animation-slide-five {
+  20% {
+    background: url('../img/history/slide-5/pic1-slide5.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  40% {
+    background: url('../img/history/slide-5/pic2-slide5.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  60% {
+    background: url('../img/history/slide-5/pic3-slide5.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  80% {
+    background: url('../img/history/slide-5/pic4-slide5.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  96% {
+    background: url('../img/history/slide-5/pic5-slide5.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+}
+
+@keyframes up-down-svg-arrow-down-soundtrack {
+  0%,
+  100% {
+    top: 2%;
+    transform: translateY(-2%);
+  }
+
+  50% {
+    top: 4%;
+    transform: translateY(-4%);
+  }
+}

@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'NavbarFont';
+  src: url('../fonts/NavBar-Font.ttf');
+}
+
+#header {
+  display: flex;
+  position: fixed;
+  z-index: 10;
+}
+
+.div-header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 4rem;
+}
+
+#div-logo {
+  width: 5rem;
+  height: 5rem;
+  clip-path: circle();
+}
+
+#img-icon-logo {
+  width: 100%;
+  height: 100%;
+}
+
+#nav-links {
+  display: flex;
+}
+
+#ul-links-wrapper {
+  display: flex;
+  gap: 2rem;
+  font-family: 'NavbarFont', sans-serif;
+  font-size: 1.5rem;
+}
+
+.li-link-nav {
+  position: relative;
+  overflow: hidden;
+  padding: 0.6rem;
+}
+
+.li-link-nav::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  border-bottom: 0.2rem solid #f2f2f2;
+  transition: 0.4s ease-in-out;
+  z-index: -1;
+}
+
+.li-link-nav:hover::before {
+  width: 100%;
+}
+
+.li-link-nav a {
+  color: #f2f2f2;
+}
+
+.div-container-home-controls {
+  gap: 1.6rem;
+}
+
+.button-home-stop-song-and-video {
+  display: flex;
+}
+
+.button-home-play-song-and-video {
+  position: relative;
+  display: flex;
+}
+
+.span-text-home-controls {
+  font-family: 'H2Font', monospace;
+  font-size: 1rem;
+  color: #f2f2f2;
+  animation: heartBeat 2s infinite;
+}
+
+.img-icon-openPaw {
+  position: absolute;
+  opacity: 0;
+}
+
+.menu-hamburger {
+  display: none;
+}
+
+#div-nav-links {
+  display: none;
+}

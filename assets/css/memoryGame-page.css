@@ -1,0 +1,153 @@
+#memoryGame-page {
+  position: relative;
+  background: #401a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-content-cards {
+  width: 132rem;
+  height: 50rem;
+  background: #f2f2f2;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card,
+.view,
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+  place-items: center;
+}
+
+.cards .card {
+  cursor: pointer;
+  position: relative;
+  perspective: 100rem;
+  transform-style: preserve-3d;
+  width: 20rem;
+  height: 23rem;
+}
+
+.card.shake {
+  animation: shake 0.35s ease-in-out;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-13px);
+  }
+  40% {
+    transform: translateX(13px);
+  }
+  60% {
+    transform: translateX(-8px);
+  }
+  80% {
+    transform: translateX(8px);
+  }
+}
+
+.cards .card .view {
+  font-family: 'H2Font', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 0.4rem;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  background: #191947;
+  color: #f2f2f2;
+  border-radius: 7px;
+  backface-visibility: hidden;
+  transition: transform 0.25s linear;
+  box-shadow: 0 0 2rem #00000085;
+}
+
+.card .front-view img {
+  max-width: 17px;
+}
+
+.card .back-view {
+  transform: rotateY(-180deg);
+}
+
+.card .back-view img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(1.6rem 0 1rem #00000090);
+}
+
+.card.flip .front-view {
+  transform: rotateY(180deg);
+}
+
+.card.flip .back-view {
+  transform: rotateY(0);
+}
+
+.details {
+  position: absolute;
+  width: 50%;
+  height: 12%;
+  top: 52rem;
+  padding: 0 2rem;
+  border-radius: 0.7rem;
+  background: #191947;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 2rem #00000080;
+  z-index: 5;
+}
+
+.details p {
+  font-family: 'H1Font';
+  font-size: 1.8rem;
+  color: #f2f2f2;
+}
+
+.details p span {
+  margin-left: 1.4rem;
+}
+
+.details button {
+  cursor: pointer;
+  font-family: 'NavbarFont';
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #191947;
+  border-radius: 0.4rem;
+  width: 18rem;
+  height: 4rem;
+  background: #f2f2f2;
+  transition: 0.6s;
+}
+
+.details button:active {
+  scale: 0.9;
+  transition: none;
+}

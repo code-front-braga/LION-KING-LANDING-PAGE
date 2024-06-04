@@ -1,13 +1,15 @@
 class HomePageControls {
-  buttonPlay = document.querySelectorAll('.button-home-play-song-and-video');
-  buttonStop = document.querySelectorAll('.button-home-stop-song-and-video');
-  imgHomePage = document.querySelector('#div-background-home-page');
-  videoHomePage = document.querySelector('#video-home-page');
-  iconClosePaw = document.querySelectorAll('.img-icon-closePaw');
-  iconOpenPaw = document.querySelectorAll('.img-icon-openPaw');
-  songHomePage = new Audio('assets/audio/song-home.mp3');
-  fadeIN = 'fade-in';
-  fadeOUT = 'fade-out';
+  constructor() {
+    this.buttonPlay = document.querySelectorAll('.button-home-play-song-and-video');
+    this.buttonStop = document.querySelectorAll('.button-home-stop-song-and-video');
+    this.imgHomePage = document.querySelector('#div-background-home-page');
+    this.videoHomePage = document.querySelector('#video-home-page');
+    this.iconClosePaw = document.querySelectorAll('.img-icon-closePaw');
+    this.iconOpenPaw = document.querySelectorAll('.img-icon-openPaw');
+    this.songHomePage = new Audio('assets/audio/song-home.mp3');
+    this.fadeIN = 'fade-in';
+    this.fadeOUT = 'fade-out';
+  }
 
   initControls() {
     this.playMedias();
@@ -62,19 +64,7 @@ class HomePageControls {
     el.classList.add(addEffect);
     el.classList.remove(removeEffect);
   }
-
-  getMatchMedia() {
-    if (this.setMatchMedia('(max-width: 481px)')) {
-      this.videoHomePage.src = '/assets/video/bg-home-video-mobile.mp4';
-      play(this.videoHomePage);
-    }
-  }
-
-  setMatchMedia(size) {
-    return window.matchMedia(size).matches;
-  }
 }
 
 const homePage = new HomePageControls();
 homePage.initControls();
-homePage.getMatchMedia();

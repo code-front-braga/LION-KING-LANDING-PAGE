@@ -73,14 +73,14 @@ class MemoryGame {
     this.failed++;
     this.failedCombinationSpan.innerHTML = this.failed;
 
-    setTimeout(() => {
-      if (this.failed > 6) {
-        alert('Você perdeu!');
-        this.shuffleCards();
-        this.points -= this.normalPoints;
-        this.pointsSpan.innerHTML = this.points;
-      }
-    }, 500);
+    // setTimeout(() => {
+    //   if (this.failed > 6) {
+    //     alert('Você perdeu!');
+    //     this.shuffleCards();
+    //     this.points -= this.normalPoints;
+    //     this.pointsSpan.innerHTML = this.points;
+    //   }
+    // }, 500);
 
     setTimeout(() => {
       this.cardOne.classList.add('shake');

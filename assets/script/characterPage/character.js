@@ -32,7 +32,7 @@ class Character {
       this.h2.innerHTML = name;
       this.h3.innerHTML = title;
       this.p.innerHTML = text;
-      this.image.setAttribute('src', `/assets/img/characters/${name}-character.png`);
+      this.image.setAttribute('src', `./assets/img/characters/${name}-character.png`);
       this.resetAll();
     });
   }
